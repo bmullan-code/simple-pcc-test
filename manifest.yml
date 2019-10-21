@@ -1,0 +1,9 @@
+applications:
+- name: pcc-demo
+  path: target/demo-0.0.1-SNAPSHOT.jar
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  random-route: true
+  services:
+  - pcc-small
